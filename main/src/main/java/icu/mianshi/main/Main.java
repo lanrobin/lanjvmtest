@@ -2,9 +2,12 @@ package icu.mianshi.main;
 
 public class Main {
     public static void main(String[] args) {
-        Integer[][] is = new Integer[][]
+        /*Integer[][] is = new Integer[][]
                 {{1,2,3,4,5,6},
-                 {6,5,4,3,2,1}};
+                 {6,5,4,3,2,1}};*/
+        //Main[][] is = new Main[4][5];
+        int[][] is = new int[][]{{1,2,3,4,5,6},
+                {6,5,4,3,2,1}};
         //Integer is = 1;
         Class<?> clz = is.getClass();
         while(clz != null) {
